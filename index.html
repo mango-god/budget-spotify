@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="https://cdn.discordapp.com/attachments/885518772176306266/897329689230704650/image-gallery-spotify-logo-21.png"
+    />
+    <title>Spotify on a budget</title>
+  </head>
+  <body>
+    <h1>Budget Spotify</h1>
+    <div class="songs">
+      <div class="player">
+        <img
+          src="https://cdn.discordapp.com/attachments/874901908719009822/897309586858577950/Z.png"
+          height="200px"
+          width="200px"
+          alt="White Christmas by Michael Bublé"
+        />
+        <audio
+          src="audio/Michael Bublé - White Christmas [Official Animated Video].mp3"
+          id="wc"
+          loop
+        ></audio>
+        <br />
+        <span>White Christmas</span>
+        <hr />
+
+        <nav>
+          <ul>
+            <li onclick="document.getElementById('wc').play()">Play</li>
+            <li onclick="document.getElementById('wc').pause()">Pause</li>
+            <li onclick="document.getElementById('wc').volume -= 0.1">-</li>
+            <li onclick="document.getElementById('wc').volume += 0.1">+</li>
+          </ul>
+        </nav>
+        <hr id="bottom-hr" />
+      </div>
+
+      <div class="player">
+        <img
+          src="https://cdn.discordapp.com/attachments/874901908719009822/897320756873166848/Z.png"
+          height="200px"
+          width="200px"
+          alt="How Deep Is Your Love by the Bee Gees"
+        />
+        <audio
+          src="audio/Bee Gees - How Deep Is Your Love (Official Video).mp3"
+          id="hdiyl"
+          loop
+        ></audio>
+        <br />
+        <span>How Deep Is Your Love</span>
+        <hr />
+
+        <nav>
+          <ul>
+            <li onclick="document.getElementById('hdiyl').play()">Play</li>
+            <li onclick="document.getElementById('hdiyl').pause()">Pause</li>
+            <li onclick="document.getElementById('hdiyl').volume -= 0.1">-</li>
+            <li onclick="document.getElementById('hdiyl').volume += 0.1">+</li>
+          </ul>
+        </nav>
+        <hr id="bottom-hr" />
+      </div>
+
+      <div class="player">
+        <img
+          src="https://cdn.discordapp.com/attachments/886151573665873940/897324239084982312/9k.png"
+          height="200px"
+          width="200px"
+          alt="It's been a long long time by Kitty Kallen"
+        />
+        <audio
+          src="audio/It's Been a Long, Long Time.mp3"
+          id="iballt"
+          loop
+        ></audio>
+        <br />
+        <span>It's Been a Long, Long Time</span>
+        <hr />
+
+        <nav>
+          <ul>
+            <li onclick="document.getElementById('iballt').play()">Play</li>
+            <li onclick="document.getElementById('iballt').pause()">Pause</li>
+            <li onclick="document.getElementById('iballt').volume -= 0.1">-</li>
+            <li onclick="document.getElementById('iballt').volume += 0.1">+</li>
+          </ul>
+        </nav>
+        <hr id="bottom-hr" />
+      </div>
+
+      <div class="player">
+        <img
+          src="https://cdn.discordapp.com/attachments/885518772176306266/897328207429263390/d41f1df466a6237532da7da92e4364bb.png"
+          height="200px"
+          width="200px"
+          alt="Can I Call You Tonight by Dayglow"
+        />
+        <audio src="audio/Can I Call You Tonight.mp3" id="cicyt" loop></audio>
+        <br />
+        <span>Can I Call You Tonight?</span>
+        <hr />
+
+        <nav>
+          <ul>
+            <li onclick="document.getElementById('cicyt').play()">Play</li>
+            <li onclick="document.getElementById('cicyt').pause()">Pause</li>
+            <li onclick="document.getElementById('cicyt').volume -= 0.1">-</li>
+            <li onclick="document.getElementById('cicyt').volume += 0.1">+</li>
+          </ul>
+        </nav>
+        <hr id="bottom-hr" />
+      </div>
+
+      <div class="player">
+        <img
+          src="https://cdn.discordapp.com/attachments/885518772176306266/897329730683015178/artworks-G77FjO9it3Lh-0-t500x500.png"
+          height="200px"
+          width="200px"
+          alt="Blue Moon by Dean Martin"
+        />
+        <audio src="audio/Blue Moon.mp3" id="bm" loop></audio>
+        <br />
+        <span>Blue Moon</span>
+        <hr />
+
+        <nav>
+          <ul>
+            <li onclick="document.getElementById('bm').play()">Play</li>
+            <li onclick="document.getElementById('bm').pause()">Pause</li>
+            <li onclick="document.getElementById('bm').volume -= 0.1">-</li>
+            <li onclick="document.getElementById('bm').volume += 0.1">+</li>
+          </ul>
+        </nav>
+        <hr id="bottom-hr" />
+      </div>
+
+      <!-- ! SECOND ROW -->
+
+      <div class="player">
+        <img
+          src="https://cdn.discordapp.com/attachments/874901908719009822/897334454270435359/artworks-q7R92ZCzAXfsyGCG-CPiwig-t500x500.png"
+          height="200px"
+          width="200px"
+          alt="Panalangin by Apo Hiking Society"
+        />
+        <audio src="audio/Panalangin.mp3" id="p" loop></audio>
+        <br />
+        <span>Panalangin</span>
+        <hr />
+
+        <nav>
+          <ul>
+            <li onclick="document.getElementById('p').play()">Play</li>
+            <li onclick="document.getElementById('p').pause()">Pause</li>
+            <li onclick="document.getElementById('p').volume -= 0.1">-</li>
+            <li onclick="document.getElementById('p').volume += 0.1">+</li>
+          </ul>
+        </nav>
+        <hr id="bottom-hr" />
+      </div>
+
+      <div class="player">
+        <img
+          src="https://cdn.discordapp.com/attachments/854968517333352458/899282481059090442/95781a21c60794dc6d29daf72996608e.png"
+          height="200px"
+          width="200px"
+          alt="Hey, Soul Sister by Train"
+        />
+        <audio
+          src="audio/Train - Hey, Soul Sister (Official Video).mp3"
+          id="hss"
+          loop
+        ></audio>
+        <br />
+        <span>Hey, Soul Sister</span>
+        <hr />
+
+        <nav>
+          <ul>
+            <li onclick="document.getElementById('hss').play()">Play</li>
+            <li onclick="document.getElementById('hss').pause()">Pause</li>
+            <li onclick="document.getElementById('hss').volume -= 0.1">-</li>
+            <li onclick="document.getElementById('hss').volume += 0.1">+</li>
+          </ul>
+        </nav>
+        <hr id="bottom-hr" />
+      </div>
+
+      <div class="player">
+        <img
+          src="https://cdn.discordapp.com/attachments/854968517333352458/899283983630733392/ab67616d0000b273827f4d5eeb2d6e13a8853e8b.png"
+          height="200px"
+          width="200px"
+          alt="Foolish Heart by Nyanners"
+        />
+        <audio src="audio/Foolish Heart.mp3" id="fh" loop></audio>
+        <br />
+        <span>Foolish Heart</span>
+        <hr />
+
+        <nav>
+          <ul>
+            <li onclick="document.getElementById('fh').play()">Play</li>
+            <li onclick="document.getElementById('fh').pause()">Pause</li>
+            <li onclick="document.getElementById('fh').volume -= 0.1">-</li>
+            <li onclick="document.getElementById('fh').volume += 0.1">+</li>
+          </ul>
+        </nav>
+        <hr id="bottom-hr" />
+      </div>
+
+      <div class="player">
+        <img
+          src="https://cdn.discordapp.com/attachments/854968517333352458/899284121765941258/a0233406076_10.png"
+          height="200px"
+          width="200px"
+          alt="Can't Take My Eyes Off You <br />
+          Aiivwan Lofi Remix"
+        />
+        <audio
+          src="audio/y2mate.com - Cant Take My Eyes Off You Aiivawn Lofi Remix.mp3"
+          id="ctmeoy"
+          loop
+        ></audio>
+        <br />
+        <span
+          >Can't Take My Eyes Off You <br />
+          Aiivawn Lofi Remix</span
+        >
+        <hr />
+
+        <nav>
+          <ul>
+            <li onclick="document.getElementById('ctmeoy').play()">Play</li>
+            <li onclick="document.getElementById('ctmeoy').pause()">Pause</li>
+            <li onclick="document.getElementById('ctmeoy').volume -= 0.1">-</li>
+            <li onclick="document.getElementById('ctmeoy').volume += 0.1">+</li>
+          </ul>
+        </nav>
+        <hr id="bottom-hr" />
+      </div>
+
+      <div class="player">
+        <img
+          src="https://cdn.discordapp.com/attachments/854968517333352458/899284698772168704/Shape_Of_You_28Official_Single_Cover29_by_Ed_Sheeran.png"
+          height="200px"
+          width="200px"
+          alt="Shapy Of You by Ed Sheeran"
+        />
+        <audio
+          src="audio/Ed Sheeran - Shape Of You [Official Lyric Video].mp3"
+          id="soy"
+          loop
+        ></audio>
+        <br />
+        <span>Shape Of You</span>
+        <hr />
+
+        <nav>
+          <ul>
+            <li onclick="document.getElementById('soy').play()">Play</li>
+            <li onclick="document.getElementById('soy').pause()">Pause</li>
+            <li onclick="document.getElementById('soy').volume -= 0.1">-</li>
+            <li onclick="document.getElementById('soy').volume += 0.1">+</li>
+          </ul>
+        </nav>
+        <hr id="bottom-hr" />
+      </div>
+    </div>
+    <br />
+    <span class="more">
+      For more songs, click
+      <a href="https://www.spotify.com/ph-en/" target="_blank">here</a>
+    </span>
+    <br />
+
+    <footer>
+      &copy;No Copyright intended. Only used for entertainment purposes only !
+      <br />
+      <br />
+      ALL SONGS GO TO THEIR RIGHTFUL OWNERS
+    </footer>
+  </body>
+</html>
